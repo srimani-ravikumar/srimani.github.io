@@ -1,19 +1,176 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Srimani Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hi, I'm Srimani 👋</h1>
-  <p>Software Engineer | System Design Enthusiast</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Your Name</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Document State Manager</li>
-    <li>More coming soon...</li>
-  </ul>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm Your Name</h1>
+            <p class="tagline">Full Stack Developer | Building scalable web applications</p>
+            <p class="description">I help teams ship better software. Specialized in React, Node.js, and cloud infrastructure.</p>
+            <a href="#projects" class="cta-button">See My Work</a>
+        </div>
+    </section>
 
-  <h2>Contact</h2>
-  <p>Email: your-email@gmail.com</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About</h2>
+            <p>
+                I'm a software engineer with 3+ years of experience building web applications that users love. 
+                I focus on clean code, performance, and solving real problems. Currently, I'm interested in 
+                distributed systems and developer tools.
+            </p>
+            <p>
+                When I'm not coding, you'll find me contributing to open source or writing about web development.
+            </p>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Work</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>Project Name</h3>
+                    <p class="tech-stack">React • Node.js • MongoDB</p>
+                    <p>
+                        Brief description of what this project does and the problem it solves. 
+                        Mention key metrics if possible (e.g., "Reduced load time by 40%").
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="link">Live Demo</a>
+                        <a href="#" class="link">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Project Name</h3>
+                    <p class="tech-stack">Python • FastAPI • PostgreSQL</p>
+                    <p>
+                        Brief description of what this project does. Focus on impact and 
+                        what you learned building it.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="link">Live Demo</a>
+                        <a href="#" class="link">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3>Project Name</h3>
+                    <p class="tech-stack">Vue.js • Django • AWS</p>
+                    <p>
+                        Brief description of what this project does and why it matters. 
+                        Include any interesting technical challenges you solved.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="link">Live Demo</a>
+                        <a href="#" class="link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Frontend</h4>
+                    <p>React, Vue.js, JavaScript, TypeScript, CSS, Tailwind</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Backend</h4>
+                    <p>Node.js, Python, Django, FastAPI, SQL, REST APIs</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Tools & Platforms</h4>
+                    <p>Git, Docker, AWS, Vercel, GitHub, CI/CD</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Other</h4>
+                    <p>Databases, System Design, Agile, Problem Solving</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h3>Senior Developer</h3>
+                    <span class="company">Tech Company</span>
+                    <span class="date">2023 - Present</span>
+                </div>
+                <ul class="exp-details">
+                    <li>Led development of customer dashboard, serving 10k+ users daily</li>
+                    <li>Reduced API response time by 60% through optimization</li>
+                    <li>Mentored 2 junior developers</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h3>Full Stack Developer</h3>
+                    <span class="company">Startup Co</span>
+                    <span class="date">2021 - 2023</span>
+                </div>
+                <ul class="exp-details">
+                    <li>Built and deployed 5+ web applications from scratch</li>
+                    <li>Implemented CI/CD pipeline reducing deployment time by 80%</li>
+                    <li>Collaborated with design team to improve UX</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to interesting projects and conversations.</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-btn">Email Me</a>
+                <a href="https://github.com/yourname" target="_blank" class="contact-btn">GitHub</a>
+                <a href="https://linkedin.com/in/yourname" target="_blank" class="contact-btn">LinkedIn</a>
+                <a href="https://twitter.com/yourname" target="_blank" class="contact-btn">Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
